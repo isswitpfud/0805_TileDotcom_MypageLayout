@@ -1,0 +1,431 @@
+@charset "UTF-8";
+@import url(reset.css);
+
+div#wrap {
+  width: 1140px;
+  height: 900px;
+  margin: 0 auto;
+}
+
+#headerArea {
+  height: 140px;
+}
+
+#headerLogo {
+  height: 140px;
+  line-height: 140px;
+  padding: 0 30px;
+  margin-right: 144px;
+}
+
+#headerSearch {
+  width: 325px;
+  padding: 14px 0;
+}
+
+#headerSearch p {
+  color: #2c9ecb;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 4px 0;
+  margin-top: 10px;
+}
+#headerSearch input {
+  width: 246px;
+  padding: 6px 30px 6px 5px;
+  border: 4px solid #428bb4;
+  margin-right: 4px;
+}
+#headerSearch input::placeholder {
+  font-size: 15px;
+  padding-left: 4px;
+}
+
+#headerSearch button {
+  background-color: #428bb4;
+  color: #fff;
+  font-size: 13px;
+  padding: 8px 9px;
+  border: none;
+}
+
+#headerSearch #searchLnb #searchUl {
+  padding: 6px 0;
+}
+
+#headerSearch #searchLnb img {
+  width: 15px;
+  height: 16px;
+  margin-top: 5px;
+}
+
+#headerSearch #searchLnb #searchUl li {
+  font-size: 10px;
+  font-weight: bold;
+  padding: 0 7px;
+}
+
+#headerLnbMenu {
+  height: 140px;
+  line-height: 128px;
+  margin-left: 70px;
+}
+
+#headerLnb li {
+  font-size: 9px;
+}
+#headerLnb li:nth-child(2n) {
+  padding: 0 7px;
+}
+
+/* headerArea영역 끝 */
+
+/*gnbMenu  */
+#gnbMenu {
+  height: 45px;
+  padding: 0 14px;
+  text-align: center;
+  justify-content: space-between;
+}
+
+#gnbMenu ul {
+  align-items: center;
+}
+
+#gnbMenu li {
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  vertical-align: ;
+  background-color: #383735;
+}
+
+#gnbMenu .subLi:not(:last-child) {
+  border-right: 1px solid #fff;
+}
+
+#gnbMenu li a {
+  padding: 8px 18px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+}
+
+#gnbMenu li > i {
+  width: 20px;
+  color: #fff;
+}
+
+#gnbMenu li:first-child {
+  width: 148px;
+  background-color: #3893c2;
+}
+
+#gnbMenu li:first-child > a {
+  padding: 10px 12px 10px 16px;
+}
+
+#gnbMenu li:first-child > a > i {
+  vertical-align: text-bottom;
+}
+
+#gnbMenu li:last-child {
+  width: 110px;
+  height: 28px;
+  line-height: 26px;
+  background-color: #f49520;
+
+  position: relative;
+  right: 0.5px;
+}
+
+#gnbMenu li:last-child > a {
+  font-size: 12px;
+  padding: 8px 12px 8px 10px;
+}
+
+/*gnbMenu  끝*/
+
+/* main#main */
+#mainMenuArea {
+  width: 360px;
+  height: 460px;
+  padding: 14px 34px;
+}
+
+#mainMenu {
+  width: 160px;
+  height: 275px;
+  line-height: 22px;
+  padding: 10px;
+  margin-left: 38px;
+  border: 1px solid #aaa;
+  border-radius: 10px;
+}
+#mainMenu h3 {
+  text-align: center;
+  border-bottom: 1px solid #aaa;
+  padding-bottom: 10px;
+}
+#mainMenu ul {
+  padding: 4px 0 0 12px;
+}
+#mainMenu li {
+  font-size: 11px;
+  font-weight: bold;
+  list-style-image: url(../images/arrow_Icon.png);
+  list-style-position: inside;
+}
+
+#mainArea {
+  padding: 35px 0;
+  margin-left: 36px;
+}
+#mainArea #mainArticle {
+  height: 25px;
+  line-height: 25px;
+}
+
+#mainArticle h3 {
+  font-size: 24px;
+  font-weight: normal;
+  color: #50d8d8;
+  padding-right: 12px;
+}
+#mainArticle > p {
+  font-size: 13px;
+}
+#mainArticle p > span {
+  color: #87b443;
+}
+
+#mainArea > p {
+  font-size: 11px;
+  line-height: 15px;
+  padding: 14px 0 20px;
+}
+
+#loginArea {
+  width: 476px;
+  height: 120px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+#loginArea table {
+  height: 66px;
+  margin-top: 6px;
+}
+
+#loginArea > span {
+  font-size: 12px;
+  font-weight: bold;
+  color: #774092;
+  margin: 13px 10px 0 0;
+}
+
+#loginArea td > input {
+  width: 125px;
+  height: 26px;
+  border: 1px solid #ccc;
+  margin-left: 8px;
+}
+#loginArea td:first-child {
+  font-size: 13px;
+}
+
+#loginArea td:first-child::before {
+  content: "\2022";
+  color: #f00;
+  font-weight: bold;
+  margin-right: 3px;
+}
+
+#loginArea p {
+  font-size: 13px;
+  margin-left: 6px;
+  height: 120px;
+  line-height: 80px;
+}
+#loginArea p > span {
+  color: #000;
+  font-size: 12px;
+  font-weight: normal;
+  height: 60px;
+  line-height: 58px;
+  margin: 0 10px 7px 4px;
+  display: inline-block;
+}
+
+#loginArea > p input {
+  width: 16px;
+  height: 16px;
+}
+
+#loginArea button {
+  width: 60px;
+  height: 20px;
+  margin-top: 22px;
+  line-height: 20px;
+  color: #fff;
+  font-size: 11px;
+
+  background-color: #b6b6b6;
+  border: 1px solid #b6b6b6;
+  border-radius: 2px;
+}
+
+#joinArea {
+  vertical-align: middle;
+  margin: 30px 0 20px;
+}
+
+#joinArea img,
+#idSearchArea img {
+  width: 42px;
+  height: 42px;
+  margin-right: 10px;
+}
+#joinText > h4,
+#searchText > h4 {
+  font-size: 13px;
+  color: #774092;
+  padding: 2px 0 3px;
+}
+
+#joinText > p,
+#searchText > p {
+  font-size: 11px;
+}
+
+#joinText > p img,
+#searchText > p img {
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+  margin-bottom: 2px;
+}
+
+#searchText {
+  margin-bottom: 35px;
+}
+
+#mainText {
+  font-size: 13px;
+  line-height: 16px;
+  padding-left: 10px;
+}
+
+/* main#main */
+
+/* footer */
+#footerArea {
+  width: 1030px;
+  height: 240px;
+  padding: 12px 24px;
+  margin: 0 auto;
+  border-top: 4px solid #444;
+  justify-content: space-around;
+}
+/* 
+#footerArea > div {
+  border: 1px solid #000;
+} */
+
+#footerArea h3 {
+  font-size: 17px;
+  font-weight: bold;
+  padding-bottom: 12px;
+}
+
+#footerArea #delivery {
+  width: 285px;
+}
+
+#footerArea div:not(:last-child) {
+  margin-right: 22px;
+}
+#footerArea div .number {
+  font-size: 25px;
+}
+
+#contctUs p {
+  padding-top: 16px;
+  font-size: 14px;
+  line-height: 23px;
+}
+#banking #nh {
+  height: 30px;
+  line-height: 30px;
+  font-size: 13px;
+  vertical-align: middle;
+  margin-top: 6px;
+}
+
+#banking #nh > p {
+  margin-left: 14px;
+  font-size: 13x;
+}
+#banking #nh > span {
+  font-size: 20px;
+  color: #07519c;
+  font-weight: bold;
+  padding-right: 2px;
+  transform: scaleX(1.5) translate(4px);
+}
+
+#banking #name {
+  font-size: 13px;
+  margin-top: 9px;
+}
+
+#delivery {
+  width: 180px;
+  font-size: 13px;
+}
+
+div#delivery > #deliveryText > span {
+  font-size: 14px;
+  margin-bottom: 13px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+div#delivery > #deliveryText .number {
+  margin-bottom: 6px;
+  letter-spacing: 6px;
+}
+
+div#delivery > #deliveryText .adress {
+  font-size: 15px;
+  line-height: 26px;
+  font-weight: bold;
+}
+
+#deliveryText .number2 {
+  font-size: 14px;
+  line-height: 27px;
+  font-weight: bold;
+}
+#readress {
+  width: 250px;
+  padding-top: 2px;
+}
+#readress span {
+  margin-left: 92px;
+}
+
+#readress span {
+  text-align: inherit;
+  display: inline-block;
+}
+
+#commuity {
+  width: 160px;
+}
+#commuity ul {
+  padding-top: 10px;
+  font-size: 13px;
+  line-height: 21px;
+}

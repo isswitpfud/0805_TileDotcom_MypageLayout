@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fileLayout_test</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" 
+            integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" 
+            crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="script/jquery-3.6.0.min.js"></script>
+    <script src="script/script.js"></script>
+</head>
+<body>
+    
+    <div id="wrap">
+
+        <div id="headerArea" class="flexContainer">
+
+            <div id="headerLogo">
+                <a href="#"><img src="images/logo.jpg" alt="헤더로고이미지"></a>
+            </div>
+
+            <div id="headerSearch">
+                <p>궁금한 것을 타일닷컴에게 물어보세요!</p>
+                <div id="searchArea" class="flexContainer">
+                    <input type="search" placeholder="타일 그 이상, 타일닷컴">
+                    <button type="button">검색</button>
+                </div>
+                <div id="searchLnb" class="flexContainer">
+                    <img src="images/research.jpg" alt="돋보기아이콘">
+                    <ul id="searchUl" class="flexContainer">
+                        <li class="searchLi"><a href="#">북유럽타일</a></li>
+                        <li class="searchLi"><a href="#">타일용본드</a></li>
+                        <li class="searchLi"><a href="#">모자이크</a></li>
+                        <li class="searchLi"><a href="#">핵사곤</a></li>
+                        <li class="searchLi"><a href="#">타일본드</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="headerLnbMenu">
+                <ul id="headerLnb" class="flexContainer">
+                    <li class="headerLi"><a href="#">로그인</a></li>
+                    <li class="headerLi">|</li>
+                    <li class="headerLi"><a href="#">회원가입</a></li>
+                    <li class="headerLi">|</li>
+                    <li class="headerLi"><a href="#">장바구니</a></li>
+                    <li class="headerLi">|</li>
+                    <li class="headerLi"><a href="#">주문배송조회</a></li>
+                    <li class="headerLi">|</li>
+                    <li class="headerLi"><a href="#">고객센터</a></li>
+                    <li class="headerLi">|</li>
+                    <li class="headerLi"><a href="#">마이페이지</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- "headerArea 끝 -->
+
+        <div id="gnbMenu">
+            <ul id="gnb" class="flexContainer">
+                <li class="subLi">
+                    <a href="#">
+                        <i class="fas fa-angle-double-down" 
+                            style="font-size: 20px;color: #fff;
+                            width: 18px;transform: scaleX(2.3);
+                            margin-right: 12px;;" ></i>
+                        전체상품
+                    </a>
+                </li>
+                <li class="subLi"><a href="#">신상품</a></li>
+                <li class="subLi"><a href="#">베스트</a></li>
+                <li class="subLi"><a href="#">세일</a></li>
+                <li class="subLi"><a href="#">이벤트</a></li>
+                <li class="subLi"><a href="#">시공후기</a></li>
+                <li class="subLi"><a href="#">시공방법</a></li>
+                <li class="subLi"><a href="#">타일계산기</a></li>
+                <li class="subLi"><a href="#">궁금해요</a></li>
+                <li class="subLi"><a href="#">공지사항</a></li>
+                <li><a href="#" class="blink">+즐겨찾기추가</a></li>
+            </ul>
+        </div>
+        <!-- #gnbMenu 끝  -->
+
+
+        <!-- #mian시작 -->
+
+        <main id="main" class="flexContainer">
+
+            <div id="mainMenuArea">
+                <div id="mainMenu">
+                    <h3>Myshop</h3>
+                    <ul id="mainMenuUl">
+                        <li class="mainLi"><a href="#"><span>주문내역</span>
+                        </a></li>
+                        <li class="mainLi"><a href="#">
+                            <span>적립금 조회</span></a></li>
+                        <li class="mainLi"><a href="#"><span>내 보관바구니</span></a></li>
+                        <li class="mainLi"><a href="#"><span>쪽지 보관함</span></a></li>
+                        <li class="mainLi"><a href="#"><span>나의질문과잡변</span></a></li>
+                        <li class="mainLi"><a href="#"><span>내가쓴상품후기</span></a></li>
+                        <li class="mainLi"><a href="#"><span>배송지주소 관리</span> </a></li>
+                        <li class="mainLi"><a href="#"><span>회원정보수정</span></a></li>
+                        <li class="mainLi"><a href="#"><span>비밀번호변경</span></a></li>
+                        <li class="mainLi"><a href="#"><span>회원탈퇴신청</span></a></li>
+                    </ul>
+                </div>
+            </div>  <!-- #mainMenu -->
+
+            <div id="mainArea">
+                    <div id="mainArticle" class="flexContainer">
+                        <h3>Login</h3>
+                        <p>회원이신분은
+                            <span>로그인</span>을 해주세요.
+                        </p>
+                    </div>
+                    
+                    <p>
+                        안녕하세요 고객님^^, 저희 쇼핑몰에 오신것을 진심으로 환영합니다. <br>
+                        회원이신분은 아이디와 비밀번호를 입력해주세요.
+                    </p>
+
+                    <div id="loginArea" class="flexContainer">
+                        <span>Member</span>
+                       <table>
+                           <tbody>
+                               <tr>
+                                   <td>아이디</td>
+                                   <td><input type="text"></td>
+                               </tr>
+                               <tr>
+                                   <td>비밀번호</td>
+                                   <td><input type="password"></td>
+                               </tr>
+                           </tbody>
+                       </table>
+                       <p>
+                           <input type="checkbox" checked><span>보안접속</span>
+                           <button type="button">확인</button>
+                       </p>
+                    </div>
+                    <!-- loginArea -->
+
+                    
+                    <div id="joinArea" class="flexContainer">
+                        <a href="#"><img src="images/login_img01.png" alt="회원가입아이콘"> </a>
+                       <div id="joinText">
+                           <h4>회원가입</h4>
+                           <p class="text">
+                               아직도 회원이 아니신가요? 회원이 되시면 보다 많은 혜택을 누리실 수 있습니다.
+                            <a href="#"><img src="images/arrow_green.png" alt="그린화살표"></a>
+                            </p>
+                       </div>
+                    </div>
+
+                    <div id="idSearchArea" class="flexContainer">
+                        <a href="#"><img src="images/login_img02.png" alt="찾기아이콘"> </a>
+                       <div id="searchText">
+                             <h4>아이디/비밀번호 찾기</h4>
+                              <p class="text">
+                                  아이디 또는 비밀번호를 잊으신 분은 여기를 클릭해주세요.
+                                <a href="#"><img src="images/arrow_green.png" alt="그린화살표"></a>
+                              </p>
+                    </div>
+                    </div>
+
+                    <div id="mainText">
+                        본 쇼핑몰을 회원제로 운영되며 가입비 및 이용료는 전액 무료입니다. <br>
+                        물론 회원을 가입하지 않으셔도 쇼핑에는 아무런 문제가 없습니다.
+                    </div>
+
+            </div>
+            <!-- mainArea -->
+        </main>
+        <!-- #mian끝 -->
+
+        <!-- div#footerArea -->
+        <div id="footerArea" class="flexContainer">
+
+            <div id="contctUs">
+                <h3>Conact Us</h3>
+                <p class="number">
+                    T. 041.733.1236
+                </p>
+                <p class="date">
+                    평&nbsp;&nbsp;&nbsp;일 : AM 09:00 - PM 06:00 <br>
+                    토요일,일요일,공휴일은 쉽니다.
+            </p>
+            </div>
+
+            <div id="banking">
+                <h3>Banking Info</h3>
+                <div id="nh" class="flexContainer">
+                    <span>NH</span>
+                    <p>농협</p>
+                </div>
+                <p class="number">301-0178-6650-41</p>
+                <div id="name">
+                    예금주 : <b>박승민</b>
+                </div>
+            </div>
+
+            <div id="delivery">
+                <h3>Delivery</h3>
+                <div id="deliveryText">
+                    <span>배송조회:CJ대한통운택배</span>
+                    <p class="number">T.1588-1255</p>
+                    <p class="number2">
+                        경동택배, 경동화물 발송(1588-5368) <br>
+                       대신택배, 대신화물 발송(043-222-4582)
+                    </p>
+                </div>
+                
+                <div id="readress" >
+                    <p>교환,반품주소 : 충남 논산시 해월로63-2
+                        <span>(논산시 부찰동164-3)</span>
+                    </p>
+                  
+                </div>
+            </div>
+
+            <div id="commuity">
+                <h3>Communiy</h3>
+                <ul>
+                    <li><a href="#">공지사항</a></li>
+                    <li><a href="#">이벤트</a></li>
+                    <li><a href="#">QnA</a></li>
+                    <li><a href="#">온라인견적</a></li>
+                    <li><a href="#">샘플신청</a></li>
+                    <li><a href="#">도매협력문의</a></li>
+                </ul>
+            </div>
+        </div><!-- div#footerArea 끝-->
+
+
+    </div> <!-- div#wrap -->
+
+</body>
+</html>
